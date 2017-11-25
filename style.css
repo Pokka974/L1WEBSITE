@@ -128,17 +128,30 @@ nav ul li a:active{
 
 #conteneur ul li
 {
-	width: 300px;
-	height: 300px;
-	background-color: rgba(0,0,0, .4);
-	border: 3px solid #fff;
 	list-style-type: none;
 }
 
-#conteneur ul li:hover,
-#conteneur ul li:focus
+#conteneur ul li a img
 {
+	width: 300px;
+	height: 300px;
+	transition: all .5s 0s;
+}
+
+#conteneur ul li a img:hover,
+#conteneur ul li a img:focus
+{
+	width: 500px;
+	height: 500px;
+	/*padding: 40px 85px 57px 80px;*/
+    transition: all .5s 0s;
+}
+
+/* FOOTER */
+
+footer
+{
+	height: 250px;
+	width: auto;
 	background-color: #000;
-	padding: 8px 25px 17px 25px;
-    transition: all .3s 0s;
 }
