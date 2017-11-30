@@ -8,13 +8,22 @@ body
 	font-family: 'Inconsolata', monospace;
 }	
 
+#conteneur
+{
+	max-width: 1200px;
+}
 
+section
+{
+	margin: 0 auto;
+
+}
 /* HEADER */
 
 header
 {
 	display: flex;
-	height: 250px;
+	height:150px;
 	width: 100%;
 }
 
@@ -129,6 +138,7 @@ nav ul li a:active{
 #conteneur ul li
 {
 	list-style-type: none;
+	margin: 10px;
 }
 
 #conteneur ul li a img
@@ -141,9 +151,9 @@ nav ul li a:active{
 #conteneur ul li a img:hover,
 #conteneur ul li a img:focus
 {
-	width: 500px;
-	height: 500px;
-	/*padding: 40px 85px 57px 80px;*/
+	width: 400px;
+	height: 400px;
+	padding: 40px;
     transition: all .5s 0s;
 }
 

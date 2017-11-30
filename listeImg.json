@@ -1,0 +1,24 @@
+﻿{
+	"images":[
+
+		{
+			"name" : "logo",
+			"path" : "images/logo.png"
+		},
+
+		{
+			"name" : "1",
+			"path" : "images/1.png"
+		},
+
+		{
+			"name" : "hp",
+			"path" : "images/hp.png"
+		},
+
+		{
+			"name" : "starbucks",
+			"path" : "images/starbucks.png"
+		}
+	]
+}
